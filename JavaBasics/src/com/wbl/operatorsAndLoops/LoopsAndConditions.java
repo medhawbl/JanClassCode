@@ -61,8 +61,8 @@ public class LoopsAndConditions {
 				result=true;
 				break;
 			}*/
-			System.out.println(ch);
 			if(ch!=searchChar){
+				System.out.println(ch);
 				continue;				
 			}else{
 				result=true;
