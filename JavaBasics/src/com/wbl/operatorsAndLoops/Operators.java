@@ -11,6 +11,7 @@ public class Operators {
 			System.out.println("b is greater");
 		}else if(a==b){
 			System.out.println("Both are equal");
+		}else{
 			
 		}
 	}
@@ -79,8 +80,8 @@ public class Operators {
 		}
 		
 		//bitwise
-		int b1= 4;
-		int b2= 6;
+		byte b1= 4;
+		byte b2= 6;
 		int b3= b1 & b2;
 		b3=~b1;
 		System.out.println(b3);
