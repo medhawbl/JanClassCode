@@ -1,6 +1,8 @@
 package com.wbl.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -27,7 +29,9 @@ public class ListExample {
 		names.add("Sunita");
 		names.add("Sunita");
 		
-		//basic for loop
+		names.add(3,"ferrari");
+		
+		/*//basic for loop
 		for(int i=0;i<ids.size();i++){
 			System.out.println(ids.get(i));
 		}
@@ -35,8 +39,14 @@ public class ListExample {
 		//enhanced for loop - for each loop
 		for(String name: names){
 			System.out.println(name);
-		}
+		}*/
+		Collections.sort(ids);
 		
+		//using iterator
+		Iterator<String> itr = names.iterator();
+		while(itr.hasNext()){
+			System.out.println(itr.next());
+		}
 		
 	}
 	
@@ -73,6 +83,10 @@ public class ListExample {
 		ids.add(4);
 		ids.add(null);
 		ids.add(null);
+
+		
+		ids.add(3,7886);
+		
 		for(int i=0;i<ids.size();i++){
 			System.out.println(ids.get(i));
 		}
@@ -81,9 +95,9 @@ public class ListExample {
 	
 	public static void main(String args[]){
 		ListExample le = new ListExample();
-		//le.listExample();
+		le.linkedListExample();
 		
-		le.vectorExample();
+		//le.vectorExample();
 	}
 
 }
