@@ -1,6 +1,7 @@
 package com.wbl.collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -41,7 +42,10 @@ public class ListExample {
 			System.out.println(name);
 		}*/
 		Collections.sort(ids);
-		
+		//array to list
+		List<Integer> ids1=Arrays.asList(new Integer[]{1,2,3});
+		//list to array
+		ids.toArray();
 		//using iterator
 		Iterator<String> itr = names.iterator();
 		while(itr.hasNext()){
