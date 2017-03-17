@@ -1,6 +1,6 @@
 package com.wbl.oops.inheritance;
 
-import com.wbl.oops.Greet;
+//import com.wbl.oops.Greet;
 import com.wbl.oops.StudentGreet;
 
 public class Dog extends Animal{

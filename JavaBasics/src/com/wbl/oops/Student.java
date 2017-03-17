@@ -2,7 +2,7 @@ package com.wbl.oops;
 
 public class Student {
 	
-	protected int id;
+	public int id;
 	public String name;
 	
 	//this a default constructor- added by jvm if we do not add one
