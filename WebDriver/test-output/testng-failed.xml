@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="WindowHandles">
+      <class name="FacebookDropnRadio">
         <methods>
-          <include name="windowHandles"/>
+          <include name="facebookLogin"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- WindowHandles -->
+      </class> <!-- FacebookDropnRadio -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
